@@ -1,3 +1,4 @@
+//Angel Rausseo, RdeRausseo #Programmer15
 import React, {useState} from "react";
 import Circle from "./circulo";
 
@@ -6,7 +7,8 @@ const Home = () => {
 
 	
 	const [color, setColor] = useState("red");
-	
+	 
+	//funcion que usamos para cambiar el valor de color y usarla en nuestro boton que cambia el focus del color
 	function changeColor(color){
 		switch(color){
 			case "green":
@@ -14,7 +16,7 @@ const Home = () => {
 			case "yellow":
 				return "red";
 			case "red":
-				return "green";
+				return "green";	
 		}
 	}
 
