@@ -1,6 +1,6 @@
 //Angel Rausseo, RdeRausseo #Programmer15
 import React, {useState} from "react";
-import Circle from "./circulo";
+import Footer from "./Footer";
 
 //create your first component
 const Home = () => {
@@ -22,7 +22,7 @@ const Home = () => {
 
 	return (
 		<>
-			<div className="palo"></div>
+			{/*<div className="palo"></div>
 			<div className="container">
 				<Circle onClick={() => setColor("green")} focus={color==="green"? "focus":""} fondo="green"/>
 				<Circle onClick={() => setColor("yellow")} focus={color==="yellow"? "focus":""} fondo="yellow"/>
@@ -33,7 +33,8 @@ const Home = () => {
 			</div>
 	
 				<button onClick={() => setColor(changeColor(color))} type="button" className="d-block my-2 mx-auto btn btn-outline-dark">change color</button>
-				<button onClick={() => setColor("blueviolet")}  type="button" className="d-block mx-auto btn btn-outline-primary"> Add the Purple Color </button>
+				<button onClick={() => setColor("blueviolet")}  type="button" className="d-block mx-auto btn btn-outline-primary"> Add the Purple Color </button>*/}
+			<Footer/>
 		</>
 	);
 };
